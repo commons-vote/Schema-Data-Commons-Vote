@@ -25,8 +25,8 @@ no_index:
 requires:
   perl: 5.6.2
 resources:
-  bugtracker: https://github.com/michal-josef-spacek/Schema-Data-Commons-Vote/issues
-  homepage: https://github.com/michal-josef-spacek/Schema-Data-Commons-Vote
+  bugtracker: https://github.com/commons-vote/Schema-Data-Commons-Vote/issues
+  homepage: https://github.com/commons-vote/Schema-Data-Commons-Vote
   license: http://opensource.org/licenses/bsd-license.php
-  repository: git://github.com/michal-josef-spacek/Schema-Data-Commons-Vote
+  repository: git://github.com/commons-vote/Schema-Data-Commons-Vote
 version: '0.01'

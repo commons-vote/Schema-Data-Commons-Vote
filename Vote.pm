@@ -1,5 +1,6 @@
 package Schema::Data::Commons::Vote;
 
+use base qw(Schema::Data);
 use strict;
 use warnings;
 

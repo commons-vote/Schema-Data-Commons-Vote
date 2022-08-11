@@ -98,6 +98,35 @@ sub data {
 			'name' => 'jury_member',
 			'role_id' => 2,
 		}],
+
+		'validation_type' => [{
+			'description' => 'Checks number of photos by author.',
+			'type' => 'check_author_photos',
+			'validation_type_id' => 1,
+		}, {
+			'description' => 'Checks if the dimensions are greater than defined.',
+			'type' => 'check_image_dimension',
+			'validation_type_id' => 2,
+		}, {
+			'description' => 'Checks if the smaller dimension is greater than defined.',
+			'type' => 'check_image_dimensions_short',
+			'validation_type_id' => 3,
+		}, {
+			'description' => 'Checks if each image is in one section.',
+			'type' => 'check_image_in_one_section',
+			'validation_type_id' => 4,
+		}, {
+			'description' => 'Checks if image size is greater than defined.',
+			'type' => 'check_image_size',
+			'validation_type_id' => 5,
+		}, {
+			'description' => 'Checks if image was created between defined dates.',
+			'type' => 'check_image_created',
+			'validation_type_id' => 6,
+		}, {
+			'description' => 'Checks if image was uploaded between defined dates.',
+			'type' => 'check_image_uploaded',
+			'validation_type_id' => 7,
 		}],
 
 		'vote_type' => [{

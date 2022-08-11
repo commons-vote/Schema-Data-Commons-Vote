@@ -94,7 +94,7 @@ sub data {
 			'name' => 'admin',
 			'role_id' => 1,
 		}, {
-			'description' => 'Jury member role.'
+			'description' => 'Jury member role.',
 			'name' => 'jury_member',
 			'role_id' => 2,
 		}],

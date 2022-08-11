@@ -3,7 +3,6 @@ abstract: 'Schema data for application Commons vote.'
 author:
   - 'Michal Josef Spacek <skim@cpan.org>'
 build_requires:
-  English: 0
   ExtUtils::MakeMaker: 6.59
   Test::More: 0
   Test::NoWarnings: 0
@@ -23,6 +22,9 @@ no_index:
     - t
     - xt
 requires:
+  Schema::Commons::Vote: 0
+  Schema::Data: 0
+  Unicode::UTF8: 0
   perl: 5.6.2
 resources:
   bugtracker: https://github.com/commons-vote/Schema-Data-Commons-Vote/issues

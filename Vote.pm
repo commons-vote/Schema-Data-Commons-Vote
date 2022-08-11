@@ -25,13 +25,6 @@ sub data {
 			'name' => 'sha_384',
 		}],
 
-		# XXX For development
-		'person' => [{
-			'email' => 'michal.josef.spacek@wikimedia.cz',
-			'name' => decode_utf8('Michal Josef Špaček'),
-			'wm_username' => 'Michal Josef Špaček (WMCZ)',
-		}],
-
 		'role' => [{
 			'description' => 'Admin role.',
 			'name' => 'admin',

@@ -8,6 +8,7 @@ use Class::Utils qw(set_params);
 use English;
 use Error::Pure qw(err);
 use Schema::Commons::Vote;
+use Unicode::UTF8 qw(decode_utf8);
 
 our $VERSION = 0.01;
 
@@ -76,29 +77,37 @@ sub insert {
 sub data {
 	return {
 		'hash_type' => [{
+			'active' => 1,
 			'hash_type_id' => 1,
 			'name' => 'sha_384',
-			'active' => 1,
+		}],
+
+		# XXX For development
+		'person' => [{
+			'email' => 'michal.josef.spacek@wikimedia.cz',
+			'name' => decode_utf8('Michal Josef Špaček'),
+			'wm_username' => 'Michal Josef Špaček (WMCZ)',
 		}],
 
 		'role' => [{
-			'role_id' => 1,
-			'name' => 'admin',
 			'description' => 'Admin role.',
+			'name' => 'admin',
+			'role_id' => 1,
 		}, {
-			'role_id' => 2,
-			'name' => 'jury_member',
 			'description' => 'Jury member role.'
+			'name' => 'jury_member',
+			'role_id' => 2,
+		}],
 		}],
 
 		'vote_type' => [{
-			'vote_type_id' => 1,
-			'type' => 'jury_marking',
 			'description' => 'Voting type for jury marking.',
+			'type' => 'jury_marking',
+			'vote_type_id' => 1,
 		}, {
-			'vote_type_id' => 2,
-			'type' => 'public_voting',
 			'description' => 'Voting type for public voting.',
+			'type' => 'public_voting',
+			'vote_type_id' => 2,
 		}],
 	};
 }

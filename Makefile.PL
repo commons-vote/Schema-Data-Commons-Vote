@@ -19,7 +19,7 @@ perl_version 5.006002;
 readme_from 'Vote.pm';
 recursive_author_tests('xt');
 requires 'Schema::Commons::Vote' => 0;
-requires 'Schema::Data' => 0;
+requires 'Schema::Data::Data' => 0;
 requires 'Unicode::UTF8' => 0;
 resources 'bugtracker' => 'https://github.com/commons-vote/Schema-Data-Commons-Vote/issues';
 resources 'homepage' => 'https://github.com/commons-vote/Schema-Data-Commons-Vote';

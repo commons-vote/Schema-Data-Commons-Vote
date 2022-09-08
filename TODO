@@ -2,7 +2,8 @@ TODO
 ====
 3. Doc.
 4. Tests.
-6.
+6. Add created_by_id to all tables (need update schema)
+7.
 
 Applied
 =======

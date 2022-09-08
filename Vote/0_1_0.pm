@@ -19,6 +19,8 @@ sub new {
 
 sub data {
 	return {
+		'_order' => [],
+
 		'hash_type' => [{
 			'active' => 1,
 			'hash_type_id' => 1,

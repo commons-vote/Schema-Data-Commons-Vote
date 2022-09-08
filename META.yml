@@ -19,10 +19,13 @@ name: Schema-Data-Commons-Vote
 no_index:
   directory:
     - inc
+    - share
     - t
     - xt
 requires:
+  File::Share: 0
   Schema::Commons::Vote: 0
+  Schema::Data: 0
   Schema::Data::Data: 0
   Unicode::UTF8: 0
   perl: 5.6.2

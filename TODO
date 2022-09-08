@@ -2,7 +2,6 @@ TODO
 ====
 3. Doc.
 4. Tests.
-5. Rewrite to versioned data
 6.
 
 Applied
@@ -12,3 +11,6 @@ OK [20220811] skim
 
 2. Rewrite to commons Schema::Data
 OK [20220811] skim
+
+5. Rewrite to versioned data
+OK [20220908] skim

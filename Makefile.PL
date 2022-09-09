@@ -22,7 +22,7 @@ recursive_author_tests('xt');
 requires 'File::Share' => 0;
 requires 'Schema::Commons::Vote' => 0;
 requires 'Schema::Data' => 0;
-requires 'Schema::Data::Data' => 0;
+requires 'Schema::Data::Data' => 0.03;
 requires 'Unicode::UTF8' => 0;
 resources 'bugtracker' => 'https://github.com/commons-vote/Schema-Data-Commons-Vote/issues';
 resources 'homepage' => 'https://github.com/commons-vote/Schema-Data-Commons-Vote';

@@ -26,7 +26,7 @@ requires:
   File::Share: 0
   Schema::Commons::Vote: 0
   Schema::Data: 0
-  Schema::Data::Data: 0
+  Schema::Data::Data: 0.03
   Unicode::UTF8: 0
   perl: 5.6.2
 resources:

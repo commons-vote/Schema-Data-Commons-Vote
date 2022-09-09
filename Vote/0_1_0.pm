@@ -21,7 +21,9 @@ sub data {
 	my ($self, $variables_hr) = @_;
 
 	return {
-		'_order' => [],
+		'_order' => [
+			'person',
+		],
 
 		'hash_type' => [{
 			'active' => 1,

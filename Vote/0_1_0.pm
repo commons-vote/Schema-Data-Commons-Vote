@@ -36,6 +36,7 @@ sub data {
 			'person_id' => 1,
 			'email' => $variables_hr->{'creator_email'},
 			'name' => $variables_hr->{'creator_name'},
+			'wm_username' => $variables_hr->{'creator_wm_username'},
 		}],
 
 		'role' => [{

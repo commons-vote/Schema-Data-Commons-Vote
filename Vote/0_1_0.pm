@@ -31,6 +31,16 @@ sub data {
 			'created_by_id' => 1,
 		}],
 
+		'log_type' => [{
+			'description' => 'Load images to competition.',
+			'type' => 'load_competition',
+			'created_by_id' => 1,
+		}, {
+			'description' => 'Create competition.',
+			'type' => 'create_competition',
+			'created_by_id' => 1,
+		}],
+
 		'person' => [{
 			'email' => $variables_hr->{'creator_email'},
 			'name' => $variables_hr->{'creator_name'},

@@ -39,6 +39,10 @@ sub data {
 			'description' => 'Create competition.',
 			'type' => 'create_competition',
 			'created_by_id' => 1,
+		}, {
+			'description' => 'Update competition.',
+			'type' => 'update_competition',
+			'created_by_id' => 1,
 		}],
 
 		'person' => [{

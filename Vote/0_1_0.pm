@@ -43,6 +43,10 @@ sub data {
 			'description' => 'Update competition.',
 			'type' => 'update_competition',
 			'created_by_id' => 1,
+		}, {
+			'description' => 'Delete section images.',
+			'type' => 'delete_competition_images',
+			'created_by_id' => 1,
 		}],
 
 		'person' => [{

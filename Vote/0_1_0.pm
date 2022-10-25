@@ -23,6 +23,8 @@ sub data {
 	return {
 		'_order' => [
 			'person',
+			'validation_type',
+			'validation_option',
 		],
 
 		'hash_type' => [{
@@ -65,34 +67,97 @@ sub data {
 			'created_by_id' => 1,
 		}],
 
+		'validation_option' => [{
+			'created_by_id' => 1,
+			'description' => 'Number of photos by author.',
+			'option' => 'number_of_photos',
+			'option_type' => 'number',
+			'validation_type_id' => 1,
+		}, {
+			'created_by_id' => 1,
+			'description' => 'Image width to check.',
+			'option' => 'image_width',
+			'option_type' => 'number',
+			'validation_type_id' => 2,
+		}, {
+			'created_by_id' => 1,
+			'description' => 'Image height to check.',
+			'option' => 'image_height',
+			'option_type' => 'number',
+			'validation_type_id' => 2,
+		}, {
+			'created_by_id' => 1,
+			'description' => 'Image smaller dimension to check.',
+			'option' => 'image_dimension',
+			'option_type' => 'number',
+			'validation_type_id' => 3,
+		}, {
+			'created_by_id' => 1,
+			'description' => 'Image size to check.',
+			'option' => 'image_size',
+			'option_type' => 'number',
+			'validation_type_id' => 5,
+		}, {
+			'created_by_id' => 1,
+			'description' => 'Image created date from to check.',
+			'option' => 'created_from',
+			'option_type' => 'date',
+			'validation_type_id' => 6,
+		}, {
+			'created_by_id' => 1,
+			'description' => 'Image created date to to check.',
+			'option' => 'created_to',
+			'option_type' => 'date',
+			'validation_type_id' => 6,
+		}, {
+			'created_by_id' => 1,
+			'description' => 'Image uploaded date from to check.',
+			'option' => 'uploaded_from',
+			'option_type' => 'date',
+			'validation_type_id' => 7,
+		}, {
+			'created_by_id' => 1,
+			'description' => 'Image uploaded date to to check.',
+			'option' => 'uploaded_to',
+			'option_type' => 'date',
+			'validation_type_id' => 7,
+		}],
+
 		'validation_type' => [{
 			'description' => 'Checks number of photos by author.',
 			'type' => 'check_author_photos',
 			'created_by_id' => 1,
+			'validation_type_id' => 1,
 		}, {
 			'description' => 'Checks if the dimensions are greater than defined.',
 			'type' => 'check_image_dimension',
 			'created_by_id' => 1,
+			'validation_type_id' => 2,
 		}, {
 			'description' => 'Checks if the smaller dimension is greater than defined.',
 			'type' => 'check_image_dimensions_short',
 			'created_by_id' => 1,
+			'validation_type_id' => 3,
 		}, {
 			'description' => 'Checks if each image is in one section.',
 			'type' => 'check_image_in_one_section',
 			'created_by_id' => 1,
+			'validation_type_id' => 4,
 		}, {
 			'description' => 'Checks if image size is greater than defined.',
 			'type' => 'check_image_size',
 			'created_by_id' => 1,
+			'validation_type_id' => 5,
 		}, {
 			'description' => 'Checks if image was created between defined dates.',
 			'type' => 'check_image_created',
 			'created_by_id' => 1,
+			'validation_type_id' => 6,
 		}, {
 			'description' => 'Checks if image was uploaded between defined dates.',
 			'type' => 'check_image_uploaded',
 			'created_by_id' => 1,
+			'validation_type_id' => 7,
 		}],
 
 		'vote_type' => [{

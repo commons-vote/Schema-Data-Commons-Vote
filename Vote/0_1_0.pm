@@ -86,6 +86,10 @@ sub data {
 		}],
 
 		'role' => [{
+			'description' => 'Competition admin role.',
+			'name' => 'competition_admin',
+			'created_by_id' => 1,
+		}, {
 			'description' => 'Admin role.',
 			'name' => 'admin',
 			'created_by_id' => 1,

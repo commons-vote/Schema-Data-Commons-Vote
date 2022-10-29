@@ -75,19 +75,19 @@ sub data {
 			'validation_type_id' => 1,
 		}, {
 			'created_by_id' => 1,
-			'description' => 'Image width to check.',
+			'description' => 'Image minimal width to check.',
 			'option' => 'image_width',
 			'option_type' => 'number',
 			'validation_type_id' => 2,
 		}, {
 			'created_by_id' => 1,
-			'description' => 'Image height to check.',
+			'description' => 'Image minimal height to check.',
 			'option' => 'image_height',
 			'option_type' => 'number',
 			'validation_type_id' => 2,
 		}, {
 			'created_by_id' => 1,
-			'description' => 'Image smaller dimension to check.',
+			'description' => 'Image minimal smaller dimension to check.',
 			'option' => 'image_dimension',
 			'option_type' => 'number',
 			'validation_type_id' => 3,

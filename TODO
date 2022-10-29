@@ -3,7 +3,8 @@ TODO
 3. Doc.
 4. Tests.
 6. Add created_by_id to all tables (need update schema)
-7.
+7. Rename role to competition_role
+8.
 
 Applied
 =======

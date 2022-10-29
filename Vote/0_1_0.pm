@@ -49,6 +49,34 @@ sub data {
 			'description' => 'Delete section images.',
 			'type' => 'delete_competition_images',
 			'created_by_id' => 1,
+		}, {
+			'description' => 'Validation for number of author photos.',
+			'type' => 'validation_check_author_photos',
+			'created_by_id' => 1,
+		}, {
+			'description' => 'Validation for photo dimension.',
+			'type' => 'validation_check_image_dimension',
+			'created_by_id' => 1,
+		}, {
+			'description' => 'Validation for photo short dimension.',
+			'type' => 'validation_check_image_dimensions_short',
+			'created_by_id' => 1,
+		}, {
+			'description' => 'Validation for photo check if is in one section.',
+			'type' => 'validation_check_image_in_one_section',
+			'created_by_id' => 1,
+		}, {
+			'description' => 'Validation for photo size.',
+			'type' => 'validation_check_image_size',
+			'created_by_id' => 1,
+		}, {
+			'description' => 'Validation for photo dates of creation.',
+			'type' => 'validation_check_image_created',
+			'created_by_id' => 1,
+		}, {
+			'description' => 'Validation for photo dates of upload.',
+			'type' => 'validation_check_image_uploaded',
+			'created_by_id' => 1,
 		}],
 
 		'person' => [{

@@ -90,10 +90,6 @@ sub data {
 			'name' => 'competition_admin',
 			'created_by_id' => 1,
 		}, {
-			'description' => 'Admin role.',
-			'name' => 'admin',
-			'created_by_id' => 1,
-		}, {
 			'description' => 'Jury member role.',
 			'name' => 'jury_member',
 			'created_by_id' => 1,

@@ -116,7 +116,7 @@ sub data {
 		}, {
 			'created_by_id' => 1,
 			'description' => 'Image minimal smaller dimension to check.',
-			'option' => 'image_dimension',
+			'option' => 'image_dimension_smaller',
 			'option_type' => 'number',
 			'validation_type_id' => 3,
 		}, {

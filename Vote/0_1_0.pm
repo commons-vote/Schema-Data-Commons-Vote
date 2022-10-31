@@ -149,6 +149,18 @@ sub data {
 			'option' => 'uploaded_to',
 			'option_type' => 'date',
 			'validation_type_id' => 7,
+		}, {
+			'created_by_id' => 1,
+			'description' => 'Image minimal longer dimension to check.',
+			'option' => 'image_dimension_longer',
+			'option_type' => 'number',
+			'validation_type_id' => 8,
+		}, {
+			'created_by_id' => 1,
+			'description' => 'Number of photos by author in section.',
+			'option' => 'number_of_photos',
+			'option_type' => 'number',
+			'validation_type_id' => 9,
 		}],
 
 		'validation_type' => [{
@@ -186,6 +198,16 @@ sub data {
 			'type' => 'check_image_uploaded',
 			'created_by_id' => 1,
 			'validation_type_id' => 7,
+		}, {
+			'description' => 'Checks if the longer dimension is greater than defined.',
+			'type' => 'check_image_dimensions_long',
+			'created_by_id' => 1,
+			'validation_type_id' => 8,
+		}, {
+			'description' => 'Checks number of photos by author in section.',
+			'type' => 'check_author_photos_in_section',
+			'created_by_id' => 1,
+			'validation_type_id' => 9,
 		}],
 
 		'voting_type' => [{

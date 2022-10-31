@@ -188,13 +188,17 @@ sub data {
 			'validation_type_id' => 7,
 		}],
 
-		'vote_type' => [{
-			'description' => 'Voting type for jury marking.',
-			'type' => 'jury_marking',
+		'voting_type' => [{
+			'description' => 'Anonymous voting.',
+			'type' => 'anonymous_voting',
 			'created_by_id' => 1,
 		}, {
-			'description' => 'Voting type for public voting.',
-			'type' => 'public_voting',
+			'description' => 'Jury voting.',
+			'type' => 'jury_voting',
+			'created_by_id' => 1,
+		}, {
+			'description' => 'Voting after login.',
+			'type' => 'login_voting',
 			'created_by_id' => 1,
 		}],
 	};

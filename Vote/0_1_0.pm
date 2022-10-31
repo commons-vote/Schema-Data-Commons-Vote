@@ -77,6 +77,14 @@ sub data {
 			'description' => 'Validation for photo dates of upload.',
 			'type' => 'validation_check_image_uploaded',
 			'created_by_id' => 1,
+		}, {
+			'description' => 'Validation for number of author photos in section.',
+			'type' => 'validation_check_author_photos_in_section',
+			'created_by_id' => 1,
+		}, {
+			'description' => 'Validation for photo long dimension.',
+			'type' => 'validation_check_image_dimensions_long',
+			'created_by_id' => 1,
 		}],
 
 		'person' => [{

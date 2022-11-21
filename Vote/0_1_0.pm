@@ -240,6 +240,7 @@ sub required_variables {
 	return (
 		'creator_name',
 		'creator_email',
+		'creator_wm_username',
 	);
 }
 

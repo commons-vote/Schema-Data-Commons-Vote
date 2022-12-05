@@ -129,7 +129,7 @@ sub data {
 			'validation_type_id' => 3,
 		}, {
 			'created_by_id' => 1,
-			'description' => 'Image size to check.',
+			'description' => 'Image size to check (in bytes).',
 			'option' => 'image_size',
 			'option_type' => 'number',
 			'validation_type_id' => 5,
